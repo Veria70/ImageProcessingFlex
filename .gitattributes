@@ -1,0 +1,12 @@
+# Normalize text files to LF in the repository
+* text=auto eol=lf
+*.bat text eol=crlf
+
+# Binary data (never touch line endings)
+*.png binary
+*.jpg binary
+*.pnm binary
+*.ppm binary
+*.pgm binary
+*.icc binary
+*.npy binary
